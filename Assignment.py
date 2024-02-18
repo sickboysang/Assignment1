@@ -37,7 +37,6 @@ def search_info(data_list, product_name):
 
 def print_list(data_list):
     for i in data_list:
-        print("This is the printed list")
         print(f"ID: {i['id']}, Product: {i['product']}, Price: {i['price']}, Category: {i['category']}")
         
 def bubble_sort(data_list):
